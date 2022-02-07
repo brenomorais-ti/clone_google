@@ -23,6 +23,7 @@ body{
     width: 100%;
     justify-content: space-between;
     align-items: center;
+    padding: 8px;
 }
 
 .menu-section{
@@ -52,15 +53,16 @@ body{
 }
 
 .menu-section.rigth{
-    margin-right: 4px;
+    margin-right: 150px;
 }
 
-.menu-section.rigth .menu-icon{
-    padding: 12px;
+.menu-icon{
+    padding: 5px;
 }
 
 .menu-profile{
     padding: 4px;
+    top: 3px;
     width: 40px;
     height: 40px;
     position: relative;
@@ -89,7 +91,8 @@ body{
 }
 
 .content-logo{
-    height: 56px;
+    width: 100%;
+    max-width: 300px;
 }
 
 .content-search{
@@ -117,3 +120,33 @@ body{
 }
 
 /* footer*/
+
+.footer{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    background: rgb(235,226,226);
+}
+
+.footer-section:not(:first-child){
+    border-top: 1px solid rgb(192,183,183);
+}
+
+.footer-location{
+    font-size: 15px;
+    color: black;
+    padding: 10px 12px;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color: rgb(68, 68, 68);
+    padding: 10px;
+}
+
+.footer-links a:not(:first-child){
+    margin-left: 30px;
+}
