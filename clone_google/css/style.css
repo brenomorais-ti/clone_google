@@ -103,3 +103,17 @@ body{
     border-radius: 25px;
     border: 1px solid rgb(192,183,183);
 }
+
+
+.content-offer{
+    margin-top: 24px;
+    font-size: 14px;
+    padding: 6px 12px;
+}
+
+.content-offer a{
+    text-decoration: none;
+    color: blue;
+}
+
+/* footer*/
